@@ -1,0 +1,57 @@
+# Archivo .gitignore para un proyecto Flask
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.so
+
+# Virtual Environments
+venv/
+*.virtualenv/
+*.venv/
+
+# Logs
+*.log
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Temporary files
+*.tmp
+*.tmp.*
+*.temp
+*.t
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Flask instance folder
+instance/
+
+# SQLite databases
+*.sqlite3
+*.sqlite
+
+# Configuration files
+*.cfg
+*.conf
+*.ini
+*.json
+
+# dist and build
+dist/
+build/
